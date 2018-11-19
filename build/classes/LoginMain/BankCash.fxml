@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="821.0" prefWidth="1276.0" style="-fx-background-color: #353f40#353f40;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.4" fx:controller="LoginMain.BankCashController">
+   <children>
+      <Label layoutX="24.0" layoutY="17.0" prefHeight="60.0" prefWidth="304.0" text="Bank Cash Details" textFill="#00b7ff">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="7.0" layoutY="77.0" prefHeight="607.0" prefWidth="1281.0">
+         <children>
+            <TableView fx:id="tableCash" prefHeight="607.0" prefWidth="1281.0" style="-fx-background-color: #b2b2b2;">
+               <columns>
+                  <TableColumn fx:id="paymentId" prefWidth="223.0" text="Payment ID" />
+                  <TableColumn fx:id="memberId" prefWidth="267.0" text="Member ID" />
+                  <TableColumn fx:id="amount" prefWidth="303.0" sortType="DESCENDING" text="Amount" />
+                  <TableColumn fx:id="date" editable="false" prefWidth="223.0" sortType="DESCENDING" text="Date/Time" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="24.0" layoutY="722.0" prefHeight="60.0" prefWidth="304.0" text="Bank Cash Details" textFill="#00b7ff">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtTotal" layoutX="955.0" layoutY="709.0" prefHeight="60.0" prefWidth="304.0" text="Total" textFill="#00b7ff">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

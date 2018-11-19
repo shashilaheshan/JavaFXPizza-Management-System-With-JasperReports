@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.LoginController">
+   <children>
+      <JFXButton layoutX="290.0" layoutY="293.0" onAction="#Login" text="Login" />
+      <JFXTextField fx:id="txtUser" layoutX="233.0" layoutY="102.0" />
+      <JFXTextField fx:id="txtPass" layoutX="233.0" layoutY="175.0" />
+      <JFXButton layoutX="357.0" layoutY="293.0" onAction="#login" text="Clear" />
+      <Hyperlink layoutX="284.0" layoutY="340.0" text="Forget Password" />
+   </children>
+</AnchorPane>

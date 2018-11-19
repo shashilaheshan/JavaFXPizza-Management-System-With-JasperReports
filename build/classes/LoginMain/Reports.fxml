@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="603.0" prefWidth="990.0" style="-fx-background-color: #353f40;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.ReportsController">
+   <children>
+      <Label layoutX="21.0" layoutY="3.0" prefHeight="69.0" prefWidth="97.0" text="Reports" textFill="WHITE">
+         <font>
+            <Font name="AppleGothic Regular" size="26.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-86.0" layoutY="72.0" prefHeight="0.0" prefWidth="1074.0" />
+      <ImageView fitHeight="96.0" fitWidth="75.0" layoutX="192.0" layoutY="126.0" onMouseClicked="#getInvoiceReports" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/InvoiceReport.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="75.0" layoutX="370.0" layoutY="131.0" onMouseClicked="#getGRNReport" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Monthly%20Reports.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="86.0" layoutX="540.0" layoutY="128.0" onMouseClicked="#getEmployeeReport" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/EmployeeReports.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="175.0" layoutY="243.0" text="Invoice Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="362.0" layoutY="244.0" text="GRN Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="517.0" layoutY="243.0" text="Employee Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="92.0" layoutX="703.0" layoutY="128.0" onMouseClicked="#OpenUSerReport" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/UserReports.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="701.0" layoutY="242.0" text="User Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="90.0" fitWidth="91.0" layoutX="192.0" layoutY="327.0" onMouseClicked="#getItemReport" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/ItemReports.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="183.0" layoutY="440.0" text="Item Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="118.0" fitWidth="75.0" layoutX="370.0" layoutY="336.0" onMouseClicked="#getPaymentReport" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/PaymentReports.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="347.0" layoutY="440.0" text="Payment Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="83.0" fitWidth="86.0" layoutX="548.0" layoutY="334.0" onMouseClicked="#getExpireItemReports" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/ExpireItemReport.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="519.0" layoutY="442.0" text="Expire Item Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="92.0" layoutX="708.0" layoutY="327.0" onMouseClicked="#getCustomerReport" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/CustomerReport.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="688.0" layoutY="440.0" text="Customer Reports" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="406.0" prefWidth="612.0" style="-fx-background-color: #353f40;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.OpenUserReportController">
+   <children>
+      <JFXComboBox fx:id="cmbUser" focusColor="WHITE" layoutX="275.0" layoutY="109.0" prefHeight="27.0" prefWidth="148.0" unFocusColor="WHITE" />
+      <Label layoutX="141.0" layoutY="114.0" prefHeight="27.0" prefWidth="70.0" text="User Type" textFill="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="269.0" layoutY="227.0" onAction="#GenerateReport" style="-fx-background-color: orange;" text="Generate Report" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="891.0" style="-fx-background-color: #353f40;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.SettingsController">
+   <children>
+      <ImageView fx:id="imgBackup" fitHeight="150.0" fitWidth="200.0" layoutX="223.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/BackupDB.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="10.0" prefHeight="31.0" prefWidth="176.0" text="Settings " textFill="#00eeff">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="332.0" text="Backup Database " textFill="#00f2ff">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgRestoreDB" fitHeight="150.0" fitWidth="200.0" layoutX="523.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Restore.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="506.0" layoutY="332.0" text="Restore Database" textFill="#00f2ff">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Separator layoutX="2.0" layoutY="477.0" prefHeight="3.0" prefWidth="891.0" style="-fx-background-color: blue;" />
+      <Label layoutX="22.0" layoutY="489.0" prefHeight="39.0" prefWidth="104.0" text="Lion's PIZZA " textFill="#00eeff">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

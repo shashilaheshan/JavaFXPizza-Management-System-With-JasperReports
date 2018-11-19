@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="939.0" style="-fx-background-color: #353f40;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.HomePageStaffController">
+   <children>
+      <ImageView fx:id="btnItemMain" fitHeight="131.0" fitWidth="139.0" layoutX="228.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/itemMain.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnInvoice" fitHeight="136.0" fitWidth="148.0" layoutX="424.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/Orders.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="221.0" layoutY="356.0" text="Item Main Panel" textFill="#fff8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="436.0" layoutY="356.0" prefHeight="20.0" prefWidth="96.0" text="Add Invoice" textFill="#fff8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="btnWebMain" fitHeight="136.0" fitWidth="134.0" layoutX="636.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/web.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="659.0" layoutY="353.0" text="Web Panel" textFill="#fff8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnLogout" fitHeight="34.0" fitWidth="30.0" layoutX="879.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/power.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnUser" fitHeight="30.0" fitWidth="30.0" layoutX="807.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="Images/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="632.0" layoutY="32.0" text="09:23 AM 2017-10-18" textFill="#f2efef">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNotification" alignment="CENTER" layoutX="753.0" layoutY="144.0" prefHeight="42.0" prefWidth="43.0" style="-fx-background-color: red; -fx-background-radius: 60px; -fx-border-radius: 60px;" text="5" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

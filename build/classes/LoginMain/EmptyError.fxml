@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: orange;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.4" fx:controller="LoginMain.EmptyErrorController">
+   <children>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="283.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/warning.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="62.0" layoutY="71.0" prefHeight="68.0" prefWidth="187.0" text="Fields Are Empty">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <GaussianBlur radius="0.0" />
+   </effect>
+</AnchorPane>

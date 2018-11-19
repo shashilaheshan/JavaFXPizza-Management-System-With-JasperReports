@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="721.0" prefWidth="1273.0" style="-fx-background-color: #b2b2b2;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.MemberMainController">
+   <children>
+      <Label layoutX="25.0" layoutY="19.0" text="Member Main Panel">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="1.0" layoutY="64.0" prefHeight="7.0" prefWidth="1285.0" style="-fx-background-color: white;" />
+      <AnchorPane layoutX="-2.0" layoutY="74.0" prefHeight="607.0" prefWidth="1281.0">
+         <children>
+            <TabPane prefHeight="608.0" prefWidth="1287.0" style="-fx-background-color: #353f40;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="--fx-background-color: red;" text="Add Member">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #b2b2b2;">
+                           <children>
+                              <VBox layoutX="591.0" layoutY="75.0" prefHeight="278.0" prefWidth="370.0">
+                                 <children>
+                                    <JFXTextField fx:id="txtFname" centerShape="false" focusColor="WHITE" prefHeight="43.0" prefWidth="307.0" promptText="Enter First Name" unFocusColor="WHITE" />
+                                    <JFXTextField fx:id="txtLName" focusColor="WHITE" prefHeight="41.0" prefWidth="225.0" promptText="Enter Last Name" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtMem_it" focusColor="WHITE" prefHeight="41.0" prefWidth="307.0" promptText="Enter Mobile" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtAdd" focusColor="WHITE" prefHeight="37.0" prefWidth="370.0" promptText="Enter Address" unFocusColor="WHITE" />
+                                    <JFXDatePicker fx:id="txtDate" defaultColor="WHITE" prefHeight="48.0" prefWidth="374.0" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="340.0" layoutY="91.0" prefHeight="228.0" prefWidth="184.0">
+                                 <children>
+                                    <Label prefHeight="40.0" prefWidth="160.0" text="First Name" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="34.0" prefWidth="144.0" text="Last Name" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="137.0" text="Mobile No(ID)" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="137.0" text="Address" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="47.0" prefWidth="160.0" text="Date" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <JFXButton buttonType="RAISED" layoutX="462.0" layoutY="440.0" onAction="#Add" prefHeight="51.0" prefWidth="133.0" style="-fx-background-color: green;" text="ADD" />
+                              <JFXButton layoutX="628.0" layoutY="439.0" onAction="#ClearFields" prefHeight="53.0" prefWidth="137.0" style="-fx-background-color: Orange;" text="CLEAR" />
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Member Details">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                           <children>
+                              <VBox layoutX="21.0" layoutY="17.0" prefHeight="351.0" prefWidth="178.0">
+                                 <children>
+                                    <Label prefHeight="42.0" prefWidth="160.0" text="Member ID">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="160.0" text="First Name">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="34.0" prefWidth="160.0" text="Last Name">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="122.0" text="Address">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="47.0" prefWidth="160.0" text="Date">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="191.0" layoutY="20.0" prefHeight="335.0" prefWidth="372.0">
+                                 <children>
+                                    <JFXTextField fx:id="txtMemId" centerShape="false" focusColor="WHITE" prefHeight="36.0" prefWidth="307.0" promptText="Enter Id" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtFname1" centerShape="false" focusColor="WHITE" prefHeight="43.0" prefWidth="307.0" promptText="Enter First Name" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtLName1" focusColor="WHITE" prefHeight="41.0" prefWidth="225.0" promptText="Enter Last Name" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtAddress" focusColor="WHITE" prefHeight="41.0" prefWidth="307.0" promptText="Enter Address" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <DatePicker fx:id="txtDate1" prefHeight="48.0" prefWidth="371.0" />
+                                 </children>
+                              </VBox>
+                              <TableView fx:id="tableMember" layoutX="633.0" layoutY="8.0" prefHeight="528.0" prefWidth="652.0" style="-fx-background-color: white; -fx-border-radius: 20px;">
+                                 <columns>
+                                    <TableColumn fx:id="colNum" prefWidth="96.33331298828125" text="MEMBER-ID" />
+                                    <TableColumn fx:id="columFName" prefWidth="123.0" text="F_NAME" />
+                                    <TableColumn fx:id="columLName" prefWidth="125.0" text="I_NAME" />
+                                    <TableColumn fx:id="clmAddress" prefWidth="154.0" text="Address" />
+                                    <TableColumn fx:id="columnDate" prefWidth="152.0" text="DATE" />
+                                 </columns>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </TableView>
+                              <JFXComboBox fx:id="cmbNicnew" layoutX="338.0" layoutY="529.0" prefHeight="25.0" prefWidth="186.0" promptText="Member ID" />
+                              <Button fx:id="btnDelete1" layoutX="199.0" layoutY="521.0" mnemonicParsing="false" onAction="#DeleteData" prefHeight="37.0" prefWidth="67.0" style="-fx-background-color: cyan;" text="DELETE" />
+                              <Button fx:id="btnUp" layoutX="110.0" layoutY="521.0" mnemonicParsing="false" onAction="#UpdateData" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: cyan;" text="UPDATE" />
+                              <Button fx:id="btnRefre" layoutX="23.0" layoutY="521.0" mnemonicParsing="false" onAction="#populate" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: cyan;" text="Refresh" />
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="28.0" layoutY="687.0" text="Lankan Pizza PVT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="721.0" prefWidth="1273.0" style="-fx-background-color: #b3b3b3;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.GrnMainController">
+   <children>
+      <Label layoutX="25.0" layoutY="19.0" text="Good Recieve Panel">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="1.0" layoutY="64.0" prefHeight="7.0" prefWidth="1285.0" style="-fx-background-color: white;" />
+      <AnchorPane layoutX="-2.0" layoutY="74.0" prefHeight="607.0" prefWidth="1281.0">
+         <children>
+            <TabPane prefHeight="608.0" prefWidth="1287.0" style="-fx-background-color: yellow;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="--fx-background-color: red;" text="New Goods Receive">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #b2b2b2;" />
+                  </content>
+                </Tab>
+                <Tab text="GRN Summary">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #b2b2b2;" />
+                  </content>
+                </Tab>
+                  <Tab text="View GRN Details">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #b2b2b2;" />
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="28.0" layoutY="687.0" text="Lankan Pizza PVT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

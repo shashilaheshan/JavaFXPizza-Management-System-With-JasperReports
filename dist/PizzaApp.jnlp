@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PizzaApp.jnlp">
+  <information>
+    <title>PizzaApp</title>
+    <vendor>root</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PizzaApp.jar" size="4017204" download="eager" />
+    <jar href="lib/ant-1.7.1.jar" size="1406903" download="eager" />
+    <jar href="lib/antlr-2.7.6.jar" size="464373" download="eager" />
+    <jar href="lib/asm-attrs.jar" size="20270" download="eager" />
+    <jar href="lib/asm.jar" size="29492" download="eager" />
+    <jar href="lib/barbecue-1.5-beta1.jar" size="99115" download="eager" />
+    <jar href="lib/barcode4j-2.1.jar" size="290519" download="eager" />
+    <jar href="lib/batik-anim.jar" size="103477" download="eager" />
+    <jar href="lib/batik-awt-util.jar" size="429003" download="eager" />
+    <jar href="lib/batik-bridge.jar" size="599197" download="eager" />
+    <jar href="lib/batik-css.jar" size="338515" download="eager" />
+    <jar href="lib/batik-dom.jar" size="188251" download="eager" />
+    <jar href="lib/batik-ext.jar" size="13564" download="eager" />
+    <jar href="lib/batik-gvt.jar" size="258005" download="eager" />
+    <jar href="lib/batik-parser.jar" size="81425" download="eager" />
+    <jar href="lib/batik-script.jar" size="69331" download="eager" />
+    <jar href="lib/batik-svg-dom.jar" size="653534" download="eager" />
+    <jar href="lib/batik-svggen.jar" size="233833" download="eager" />
+    <jar href="lib/batik-transcoder.jar" size="130894" download="eager" />
+    <jar href="lib/batik-util.jar" size="139566" download="eager" />
+    <jar href="lib/batik-xml.jar" size="33629" download="eager" />
+    <jar href="lib/bcel-5.2.jar" size="567721" download="eager" />
+    <jar href="lib/bsh-2.1b5.jar" size="405737" download="eager" />
+    <jar href="lib/castor-1.2.jar" size="918569" download="eager" />
+    <jar href="lib/cglib-2.1.jar" size="307159" download="eager" />
+    <jar href="lib/cincom-jr-xmla.jar" size="22656" download="eager" />
+    <jar href="lib/com-jaspersoft-ireport.jar" size="12121936" download="eager" />
+    <jar href="lib/com-jaspersoft-jrx.jar" size="88242" download="eager" />
+    <jar href="lib/commons-beanutils-1.8.2.jar" size="248327" download="eager" />
+    <jar href="lib/commons-collections-3.2.1.jar" size="625002" download="eager" />
+    <jar href="lib/commons-dbcp-1.2.2.jar" size="128483" download="eager" />
+    <jar href="lib/commons-digester-2.1.jar" size="215680" download="eager" />
+    <jar href="lib/commons-javaflow-20060411.jar" size="102704" download="eager" />
+    <jar href="lib/commons-logging-1.1.jar" size="57162" download="eager" />
+    <jar href="lib/commons-math-1.0.jar" size="165126" download="eager" />
+    <jar href="lib/commons-pool-1.3.jar" size="67442" download="eager" />
+    <jar href="lib/commons-pool-1.6.jar" size="119040" download="eager" />
+    <jar href="lib/commons-vfs-1.0.jar" size="387360" download="eager" />
+    <jar href="lib/dom4j-1.6.jar" size="331468" download="eager" />
+    <jar href="lib/ehcache-1.1.jar" size="52006" download="eager" />
+    <jar href="lib/eigenbase-properties-1.1.0.10924.jar" size="15728" download="eager" />
+    <jar href="lib/eigenbase-resgen-1.3.0.11873.jar" size="66061" download="eager" />
+    <jar href="lib/eigenbase-xom-1.3.0.11999.jar" size="102720" download="eager" />
+    <jar href="lib/ejb3-persistence.jar" size="64045" download="eager" />
+    <jar href="lib/groovy-all-2.0.1.jar" size="6623416" download="eager" />
+    <jar href="lib/hadoop-core-1.0.1.jar" size="4137389" download="eager" />
+    <jar href="lib/hibernate-annotations.jar" size="297426" download="eager" />
+    <jar href="lib/hibernate-commons-annotations.jar" size="74862" download="eager" />
+    <jar href="lib/hibernate3.jar" size="2955461" download="eager" />
+    <jar href="lib/hive-common-0.8.1.jar" size="60727" download="eager" />
+    <jar href="lib/hive-exec-0.8.1.jar" size="3674686" download="eager" />
+    <jar href="lib/hive-jdbc-0.8.1.jar" size="63163" download="eager" />
+    <jar href="lib/hive-metastore-0.8.1.jar" size="1830643" download="eager" />
+    <jar href="lib/hive-service-0.8.1.jar" size="184349" download="eager" />
+    <jar href="lib/hsqldb-1.8.0-10.jar" size="746080" download="eager" />
+    <jar href="lib/iText-2.1.7.js2.jar" size="1184022" download="eager" />
+    <jar href="lib/iTextAsian.jar" size="336455" download="eager" />
+    <jar href="lib/jackson-annotations-2.1.4.jar" size="41408" download="eager" />
+    <jar href="lib/jackson-core-2.1.4.jar" size="218607" download="eager" />
+    <jar href="lib/jackson-databind-2.1.4.jar" size="986027" download="eager" />
+    <jar href="lib/jasperreports-5.6.0.jar" size="5342426" download="eager" />
+    <jar href="lib/jasperreports-chart-themes-5.6.0.jar" size="173001" download="eager" />
+    <jar href="lib/jasperreports-core-renderer.jar" size="1148193" download="eager" />
+    <jar href="lib/jasperreports-extensions-3.5.3.jar" size="38985" download="eager" />
+    <jar href="lib/jasperreports-fonts-5.6.0.jar" size="2481434" download="eager" />
+    <jar href="lib/jasperreports-functions-5.6.0.jar" size="35219" download="eager" />
+    <jar href="lib/jasperreports-htmlcomponent-4.7.1.jar" size="54903" download="eager" />
+    <jar href="lib/jasperreports-htmlcomponent-5.0.1.jar" size="55046" download="eager" />
+    <jar href="lib/jasperreports-json.jar" size="19283" download="eager" />
+    <jar href="lib/jasperreports-jtidy-r938.jar" size="202866" download="eager" />
+    <jar href="lib/javacup.jar" size="248102" download="eager" />
+    <jar href="lib/javassist-3.4.GA.jar" size="499788" download="eager" />
+    <jar href="lib/jaxen-1.1.1.jar" size="246355" download="eager" />
+    <jar href="lib/jcommon-1.0.15.jar" size="333751" download="eager" />
+    <jar href="lib/jdt-compiler-3.1.1.jar" size="1247007" download="eager" />
+    <jar href="lib/jfoenix-8.0.1.jar" size="2491571" download="eager" />
+    <jar href="lib/jfoenix-9.0.1.jar" size="2180796" download="eager" />
+    <jar href="lib/jfreechart-1.0.12.jar" size="1434457" download="eager" />
+    <jar href="lib/joda-time-2.1.jar" size="642137" download="eager" />
+    <jar href="lib/joda-time-2.4.jar" size="658071" download="eager" />
+    <jar href="lib/jpa.jar" size="57542" download="eager" />
+    <jar href="lib/js-hive-datasource-1.0.4.jar" size="25828" download="eager" />
+    <jar href="lib/js-mongodb-datasource-1.0.0a.jar" size="45871" download="eager" />
+    <jar href="lib/js_activation-1.1.jar" size="60815" download="eager" />
+    <jar href="lib/js_axis-1.4patched.jar" size="1685269" download="eager" />
+    <jar href="lib/js_commons-codec-1.3.jar" size="51790" download="eager" />
+    <jar href="lib/js_commons-discovery-0.2.jar" size="78564" download="eager" />
+    <jar href="lib/js_commons-httpclient-3.1.jar" size="324885" download="eager" />
+    <jar href="lib/js_jasperserver-common-ws-4.7.1.jar" size="79112" download="eager" />
+    <jar href="lib/js_jaxrpc.jar" size="38507" download="eager" />
+    <jar href="lib/js_mail-1.4.jar" size="378106" download="eager" />
+    <jar href="lib/js_saaj-api-1.3.jar" size="23457" download="eager" />
+    <jar href="lib/js_wsdl4j-1.5.1.jar" size="140412" download="eager" />
+    <jar href="lib/jta.jar" size="12330" download="eager" />
+    <jar href="lib/jxl-2.6.10.jar" size="790965" download="eager" />
+    <jar href="lib/libfb303-0.7.0.jar" size="186311" download="eager" />
+    <jar href="lib/libthrift-0.9.0-snapshot.jar" size="374010" download="eager" />
+    <jar href="lib/log4j-1.2.15.jar" size="421580" download="eager" />
+    <jar href="lib/mondrian-3.2.0-13661-JS.jar" size="3018031" download="eager" />
+    <jar href="lib/mongo-java-driver-2.7.3.jar" size="312954" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.46-bin.jar" size="1045221" download="eager" />
+    <jar href="lib/olap4j-0.9.7.309-JS.jar" size="480333" download="eager" />
+    <jar href="lib/png-encoder-1.5.jar" size="12446" download="eager" />
+    <jar href="lib/poi-3.7-20101029.jar" size="1797993" download="eager" />
+    <jar href="lib/poi-ooxml-3.7-20101029.jar" size="522921" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.7-20101029.jar" size="4396217" download="eager" />
+    <jar href="lib/rex-0.8.1.jar" size="873030" download="eager" />
+    <jar href="lib/rex-20080421.jar" size="905026" download="eager" />
+    <jar href="lib/rhino-1.7R3.jar" size="1143212" download="eager" />
+    <jar href="lib/saaj-api-1.3.jar" size="23459" download="eager" />
+    <jar href="lib/servlet-api-2.4.jar" size="105717" download="eager" />
+    <jar href="lib/slf4j-api-1.5.8.jar" size="27580" download="eager" />
+    <jar href="lib/slf4j-log4j12-1.5.8.jar" size="12303" download="eager" />
+    <jar href="lib/spring.jar" size="3050015" download="eager" />
+    <jar href="lib/sqleonardo-2009.03.rc1.jar" size="679599" download="eager" />
+    <jar href="lib/swingx-2007_10_07.jar" size="1477191" download="eager" />
+    <jar href="lib/velocity-1.7-dep.jar" size="861452" download="eager" />
+    <jar href="lib/vianett_sms_v2_1.jar" size="28588" download="eager" />
+    <jar href="lib/xbean.jar" size="2940264" download="eager" />
+    <jar href="lib/xml-apis-ext.jar" size="107726" download="eager" />
+    <jar href="lib/xml-apis.jar" size="227962" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PizzaApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="LoginMain.Login"  name="PizzaApp" />
+  <update check="always"/>
+</jnlp>

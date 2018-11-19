@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="721.0" prefWidth="1273.0" style="-fx-background-color: #b2b2b2; " xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.EmployeeMainController">
+   <children>
+      <Label layoutX="25.0" layoutY="19.0" text="Employee Main Panel">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="1.0" layoutY="64.0" prefHeight="7.0" prefWidth="1285.0" style="-fx-background-color: white;" />
+      
+        
+     
+      <AnchorPane layoutX="-2.0" layoutY="74.0" prefHeight="607.0" prefWidth="1281.0">
+         <children>
+            <TabPane prefHeight="608.0" prefWidth="1287.0" style="-fx-background-color: yellow;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="--fx-background-color: red;" text="Add Employee">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #353f40;">
+                           <children>
+                              <VBox layoutX="633.0" layoutY="6.0" prefHeight="393.0" prefWidth="370.0">
+                                 <children>
+                                    <Label fx:id="lblEmployeeId" prefHeight="42.0" prefWidth="70.0" text="Label" textFill="#ebdbdb">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <JFXTextField fx:id="txtFname" centerShape="false" focusColor="#d9dbe4" prefHeight="43.0" prefWidth="307.0" promptText="Enter First Name" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtLName" prefHeight="41.0" prefWidth="225.0" promptText="Enter Last Name" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtNic" prefHeight="41.0" prefWidth="307.0" promptText="Enter NIC" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtAddress" prefHeight="41.0" prefWidth="307.0" promptText="Enter Address" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtTp" prefHeight="40.0" prefWidth="307.0" promptText="Enter T.P" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtMail" prefHeight="42.0" prefWidth="307.0" promptText="Enter Email(Optional)" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                    <JFXTextField fx:id="txtDev" prefHeight="40.0" prefWidth="307.0" promptText="Choose Devision" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                 <JFXTextField fx:id="txtSal" prefHeight="40.0" prefWidth="307.0" promptText="Insert Salary" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-color: black;" unFocusColor="#fcfcfc" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="330.0" layoutY="16.0" prefHeight="558.0" prefWidth="184.0">
+                                 <children>
+                                    <Label prefHeight="42.0" prefWidth="160.0" text="Employee ID" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="160.0" text="First Name" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="34.0" prefWidth="160.0" text="Last Name" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="77.0" text="N.I.C" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="47.0" prefWidth="160.0" text="Address" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="38.0" prefWidth="160.0" text="T.P.No" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="42.0" prefWidth="160.0" text="Email" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="46.0" prefWidth="160.0" text="Devision" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="46.0" prefWidth="160.0" text="Salary" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="Images/employeeHome.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="btnAdd" layoutX="535.0" layoutY="470.0" mnemonicParsing="false" onAction="#Add" prefHeight="54.0" prefWidth="78.0" style="-fx-background-color: cyan;" text="Add">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font></Button>
+                              <Button fx:id="btnAdd1" layoutX="646.0" layoutY="469.0" mnemonicParsing="false" onAction="#Add" prefHeight="54.0" prefWidth="78.0" style="-fx-background-color: cyan;" text="Clear">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Button>
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Shift Employee">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                           <children>
+                              <Label layoutX="355.0" layoutY="140.0" text="Employee NIC">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="325.0" layoutY="186.0" text="Employee Name">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="393.0" layoutY="239.0" text="Branch">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="403.0" layoutY="290.0" text="Date">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextField fx:id="empNameShift" layoutX="495.0" layoutY="176.0" prefHeight="36.0" prefWidth="272.0" unFocusColor="#030000">
+                                 <effect>
+                                    <DropShadow blurType="GAUSSIAN" color="#140101" height="173.71" radius="94.1375" spread="0.83" width="204.84" />
+                                 </effect>
+                              </JFXTextField>
+                              <DatePicker fx:id="empShiftDate" layoutX="490.0" layoutY="286.0" prefHeight="36.0" prefWidth="282.0" style="-fx-background-color: yellow;">
+                                 <effect>
+                                    <DropShadow />
+                                 </effect>
+                              </DatePicker>
+                              <JFXComboBox fx:id="empNICShift" layoutX="495.0" layoutY="141.0" prefHeight="25.0" prefWidth="273.0" />
+                              <JFXComboBox fx:id="empBranch" layoutX="495.0" layoutY="228.0" prefHeight="25.0" prefWidth="273.0" />
+                              <Button fx:id="btnAdd2" layoutX="512.0" layoutY="474.0" mnemonicParsing="false" onAction="#AddShift" prefHeight="54.0" prefWidth="78.0" style="-fx-background-color: cyan;" text="Shift">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnAdd11" layoutX="651.0" layoutY="474.0" mnemonicParsing="false" onAction="#Clear" prefHeight="54.0" prefWidth="78.0" style="-fx-background-color: cyan;" text="Clear">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Button>
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Employee Details">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: White;">
+                           <children>
+                              <TableView fx:id="tableEmployee" layoutX="608.0" layoutY="4.0" prefHeight="571.0" prefWidth="679.0" style="-fx-background-color: white;">
+                                <columns>
+                                  <TableColumn fx:id="columnic" prefWidth="75.0" text="NIC" />
+                                  <TableColumn fx:id="columFName" prefWidth="75.0" text="F_NAME" />
+                                    <TableColumn fx:id="columLName" prefWidth="75.0" text="L_NAME" />
+                                    <TableColumn fx:id="columMobile" prefWidth="75.0" text="MOBILE" />
+                                    <TableColumn fx:id="columEmail" prefWidth="75.0" text="EMAIL" />
+                                    <TableColumn fx:id="columAdress" prefWidth="75.0" text="ADDRESS" />
+                                    <TableColumn fx:id="columDevision" prefWidth="75.0" text="DEVISION" />
+                                    
+                                </columns>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </TableView>
+                              <VBox layoutX="236.0" layoutY="31.0" prefHeight="335.0" prefWidth="372.0">
+                                 <children>
+                                    
+                                    <JFXTextField fx:id="txtFname1" centerShape="false" focusColor="WHITE" prefHeight="43.0" prefWidth="307.0" promptText="Enter First Name" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtLName1" focusColor="WHITE" prefHeight="41.0" prefWidth="225.0" promptText="Enter Last Name" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtNic1" focusColor="WHITE" prefHeight="41.0" prefWidth="307.0" promptText="Enter NIC" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtAddress1" focusColor="WHITE" prefHeight="41.0" prefWidth="307.0" promptText="Enter Address" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtTp1" focusColor="WHITE" prefHeight="40.0" prefWidth="307.0" promptText="Enter T.P" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtMail1" focusColor="WHITE" prefHeight="42.0" prefWidth="307.0" promptText="Enter Email(Optional)" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                    <JFXTextField fx:id="txtDev1" focusColor="WHITE" prefHeight="40.0" prefWidth="307.0" promptText="Choose Devision" style="-fx-border-radius: 10px; -fx-border-color: Black;" unFocusColor="#fcfcfc">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </JFXTextField>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="67.0" layoutY="22.0" prefHeight="351.0" prefWidth="178.0">
+                                 <children>
+                                    
+                                    <Label prefHeight="40.0" prefWidth="160.0" text="First Name">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="34.0" prefWidth="160.0" text="Last Name">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="40.0" prefWidth="77.0" text="N.I.C">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="47.0" prefWidth="160.0" text="Address">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="38.0" prefWidth="160.0" text="T.P.No">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="42.0" prefWidth="160.0" text="Email">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label prefHeight="46.0" prefWidth="160.0" text="Devision">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <Button fx:id="btnLoad" layoutX="86.0" layoutY="498.0" mnemonicParsing="false" onAction="#Update" text="Update" />
+                            
+                              <JFXComboBox fx:id="cmbNicnew" layoutX="422.0" layoutY="490.0" prefHeight="25.0" prefWidth="186.0" promptText="NIC" />
+                              <Label layoutX="266.0" layoutY="502.0" text="Select NIC for Changes" />
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="28.0" layoutY="687.0" text="Lankan Pizza PVT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

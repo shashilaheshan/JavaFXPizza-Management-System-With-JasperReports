@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="600.0" style="-fx-background-color: #b2b2b2;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginMain.PaymentController">
+   <children>
+      <Group fx:id="g" layoutX="241.0" layoutY="210.0">
+         <children>
+            <JFXRadioButton fx:id="radcard" layoutX="-13.0" layoutY="-7.0" prefHeight="0.0" prefWidth="193.0" text="Card Payment">
+               <toggleGroup>
+                  <ToggleGroup fx:id="one" />
+               </toggleGroup>
+               <font>
+                  <Font name="Al Nile" size="17.0" />
+               </font></JFXRadioButton>
+            <JFXRadioButton fx:id="radcash" layoutX="-13.0" layoutY="32.0" prefHeight="17.0" prefWidth="131.0" selected="true" text="Cash Payment" toggleGroup="$one">
+               <font>
+                  <Font name="Al Nile" size="17.0" />
+               </font></JFXRadioButton>
+         </children>
+      </Group>
+      <Label layoutX="131.0" layoutY="86.0" prefHeight="24.0" prefWidth="91.0" text="Amount">
+         <font>
+            <Font name="Al Nile" size="17.0" />
+         </font></Label>
+      <Label fx:id="lblammount" layoutX="241.0" layoutY="90.0" prefHeight="17.0" prefWidth="183.0">
+         <font>
+            <Font name="Al Nile" size="17.0" />
+         </font></Label>
+      <Label layoutX="94.0" layoutY="206.0" prefHeight="31.0" prefWidth="117.0" text="Payment Term">
+         <font>
+            <Font name="Al Nile" size="17.0" />
+         </font></Label>
+      <Label layoutX="130.0" layoutY="145.0" prefHeight="17.0" prefWidth="91.0" text="Mobile No">
+         <font>
+            <Font name="Al Nile" size="17.0" />
+         </font></Label>
+      <Label fx:id="lblmobile" layoutX="241.0" layoutY="145.0" prefHeight="17.0" prefWidth="166.0">
+         <font>
+            <Font name="Al Nile" size="17.0" />
+         </font></Label>
+      <JFXButton fx:id="btnenter" buttonType="RAISED" layoutX="495.0" layoutY="302.0" onAction="#enter" prefHeight="35.0" prefWidth="67.0" style="-fx-background-color: orange;" text="Enter" />
+      <Label layoutX="14.0" layoutY="7.0" prefHeight="35.0" prefWidth="102.0" text="Payment">
+         <font>
+            <Font name="Al Nile" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="407.0" layoutY="26.0" text="Payment ID" />
+      <Label fx:id="txtPID" layoutX="512.0" layoutY="26.0" text="pid" />
+      <Label layoutX="416.0" layoutY="53.0" text="Invoice ID" />
+      <Label fx:id="invoice_id" layoutX="512.0" layoutY="53.0" text="inid" />
+   </children>
+</AnchorPane>
